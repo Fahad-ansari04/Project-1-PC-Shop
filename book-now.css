@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    /* position: fixed; */
+}
+header img{
+    width: 60px;
+    height: 60px;
+    margin: 10px 0px 10px 50px;
+    filter: invert(100);
+}
+#form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 450px;
+    width: 500px; */
+    /* border: 1px solid black; */
+    margin: 20px auto;
+    margin-top: 150px;
+    /* background-color: aqua; */
+}
+
+#form-container input,#form-container textarea{
+    display: block;
+    margin: 20px;
+    width: 500px;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 15px;
+}
+#form-container h1{
+    margin-bottom: 25px;
+    background-color: black;
+    color: tomato;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+    width: 500px;
+}
+/* #get-quotation {
+    position: relative;
+    left: 5000px;
+}
+a{
+    text-decoration: none;
+    color: tomato;
+    background-color: black;
+    position: relative;
+    left: 135px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+} */
+#buttons {
+    display: flex;
+    flex-direction: column;
+}
+#buttons div a{
+    text-decoration: none;
+    color: tomato;
+    background-color: black;
+    position: relative;
+    left: 135px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    
+}
+#buttons div{
+    margin-bottom: 10px;
+}
+
+@media(max-width:540px){
+    #form-container{
+        margin-top: 120px;
+    }
+    #form-container input,#form-container textarea{
+        display: block;
+        margin: 20px;
+        width: 300px;
+        padding: 10px;
+        border: 2px solid grey;
+        border-radius: 15px;
+    }
+    #form-container h1{
+        margin-bottom: 25px;
+        background-color: black;
+        color: tomato;
+        padding: 20px;
+        border-radius: 20px 20px 0 0;
+        width: 300px;
+    }
+    #buttons div a{
+        text-decoration: none;
+        color: tomato;
+        background-color: black;
+        position: relative;
+        left: 85px;
+        
+    }
+}
